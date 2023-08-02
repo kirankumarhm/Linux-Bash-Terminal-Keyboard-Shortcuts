@@ -117,3 +117,25 @@
     ```
 
 
+## Linux process management commands cheatsheet
+
+- `ps`: Displays information about active processes running on the system.
+- `pstree`: Displays a hierarchical tree structure of processes.
+- `kill`: Sends a signal to terminate or interrupt a process.
+- `killall`: Terminates all processes with a specific name.
+- `pkill`: Sends a signal to terminate or interrupt processes based on their name.
+- `pgrep`: Lists process IDs based on matching criteria.
+- `nice`: Launches a command with a specified priority level.
+- `renice`: Changes the priority level of a running process.
+- `jobs`: Lists active jobs in the current shell session.
+- `fg`: Brings a job to the foreground.
+- `bg`: Sends a job to the background.
+- `nohup`: Runs a command that ignores hangup (HUP) signals.
+- `screen`: Manages multiple terminal sessions within a single shell session.
+- `ps aux`: Displays detailed information about all active processes.
+- `systemctl`: Controls the systemd system and service manager.
+- `top`: Provides real-time information about system resource usage and active processes.
+- `htop`: Interactive process viewer that displays system resource usage and process information.
+- `btop++`: Another interactive process viewer with additional features.
+- `lsof`: Lists open files and the processes that have them open.
+- `&`: Executes a command in the background, allowing the user to continue using the terminal.
