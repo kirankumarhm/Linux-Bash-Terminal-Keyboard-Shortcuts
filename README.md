@@ -75,6 +75,7 @@
     ```
 
 14.  Bash History
+
     ```
     Ctrl + R
     ```
