@@ -2,10 +2,10 @@
 
 1. Move to the start of the command line
 
-
     ```
     Ctrl + A
     ```
+    
 2. Move to the end of the command line
 
     ```
@@ -119,23 +119,83 @@
 
 ## Linux process management commands cheatsheet
 
-- `ps`: Displays information about active processes running on the system.
-- `pstree`: Displays a hierarchical tree structure of processes.
-- `kill`: Sends a signal to terminate or interrupt a process.
-- `killall`: Terminates all processes with a specific name.
-- `pkill`: Sends a signal to terminate or interrupt processes based on their name.
-- `pgrep`: Lists process IDs based on matching criteria.
-- `nice`: Launches a command with a specified priority level.
-- `renice`: Changes the priority level of a running process.
-- `jobs`: Lists active jobs in the current shell session.
-- `fg`: Brings a job to the foreground.
-- `bg`: Sends a job to the background.
-- `nohup`: Runs a command that ignores hangup (HUP) signals.
-- `screen`: Manages multiple terminal sessions within a single shell session.
-- `ps aux`: Displays detailed information about all active processes.
-- `systemctl`: Controls the systemd system and service manager.
-- `top`: Provides real-time information about system resource usage and active processes.
-- `htop`: Interactive process viewer that displays system resource usage and process information.
-- `btop++`: Another interactive process viewer with additional features.
-- `lsof`: Lists open files and the processes that have them open.
-- `&`: Executes a command in the background, allowing the user to continue using the terminal.
+-  Displays information about active processes running on the system.
+```
+ps
+```
+-  Displays a hierarchical tree structure of processes.
+```
+pstree
+```
+-  Sends a signal to terminate or interrupt a process.
+```
+kill
+```
+-  Terminates all processes with a specific name.
+```
+killall
+```
+-  Sends a signal to terminate or interrupt processes based on their name.
+```
+pkill
+```
+-  Lists process IDs based on matching criteria.
+```
+pgrep
+```
+-  Launches a command with a specified priority level.
+```
+nice
+```
+-  Changes the priority level of a running process.
+```
+renice
+```
+-  Lists active jobs in the current shell session.
+```
+jobs
+```
+-  Brings a job to the foreground.
+```
+fg
+```
+-  Sends a job to the background.
+```
+bg
+```
+-  Runs a command that ignores hangup (HUP) signals.
+```
+nohup
+```
+-  Manages multiple terminal sessions within a single shell session.
+```
+screen
+```
+-  Displays detailed information about all active processes.
+```
+ps aux
+```
+-  Controls the systemd system and service manager.
+```
+systemctl
+```
+-  Provides real-time information about system resource usage and active processes.
+```
+top
+```
+-  Interactive process viewer that displays system resource usage and process information.
+```
+htop
+```
+-  Another interactive process viewer with additional features.
+```
+btop++
+```
+-  Lists open files and the processes that have them open.
+```
+lsof
+```
+- Executes a command in the background, allowing the user to continue using the terminal.
+```
+&
+```
